@@ -418,10 +418,17 @@ body{
     }
 }
 .news-content-box{
-    padding-left:4rem;
     padding-top:7rem;
     padding-bottom:9rem;
     line-height:2.4rem;
+}
+@media(min-width:700px){
+    .news-content-box{
+        padding-left:4rem;
+        padding-top:7rem;
+        padding-bottom:9rem;
+        line-height:2.4rem;
+    }
 }
 #news-heading{
     color:rgb(0, 0, 255);
@@ -453,9 +460,17 @@ body{
 }
 #news-img{
     height:23rem;
-    width:33rem;
+    width:30.5rem;
     border-bottom-left-radius:10px;
     border-top-left-radius:10px;
+}
+@media(min-width:700px){
+    #news-img{
+        height:23rem;
+        width:33rem;
+        border-bottom-left-radius:10px;
+        border-top-left-radius:10px;
+    }
 }
 #statement{
     font-family:arial;
